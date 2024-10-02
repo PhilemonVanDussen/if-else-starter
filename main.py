@@ -18,13 +18,17 @@
 #     print('Your name is long')
 
 # #Task 4
-vowels = ['a', 'e', 'i', 'o', 'u']
-letter = input('Enter a letter in the alphabet ').lower()
-if letter in vowels:
-    print('Your letter is a vowel')
-else:
-    print('Your letter is a constant')
+# vowels = ['a', 'e', 'i', 'o', 'u']
+# letter = input('Enter a letter in the alphabet ').lower()
+# if letter in vowels:
+#     print('Your letter is a vowel')
+# else:
+#     print('Your letter is a constant')
 #Task 5
-# num1 = int(input('Please enter a number'))
-# num2 = int(input('Enter another number'))
-# num1 % num2
+num1 = int(input('Please enter a number '))
+num2 = int(input('Enter another number '))
+proccess = num1 % num2
+if proccess == 0:
+    print('Your first number is divisable by your second number! ')
+else:
+    print('Your first number is NOT divisable by your second number ')
